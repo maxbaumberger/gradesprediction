@@ -54,11 +54,11 @@ We evaluated the models based on R² Score, Mean Absolute Error (MAE), and RMSE.
 
 | Model | R² Score | MAE | RMSE | Performance |
 | :--- | :---: | :---: | :---: | :--- |
-| **Decision Tree (Baseline)** | 0.59 | ~ | ~ | Baseline performance, struggled with complexity. |
-| **Bagging Regressor** | 0.67 | ~ | ~ | Improved robustness by averaging predictions. |
+| **Decision Tree (Baseline)** | 0.18 | 1.73 | 3.36 | Baseline performance, struggled with complexity. |
+| **Bagging Regressor** | 0.67 | 1.18 | 2.14 | Improved robustness by averaging predictions. |
 | **XGBoost (Optimized)** | **0.70** | **1.04** | **2.03** | **Best Model.** High precision and low error. |
 
-**Key Insight:** Academic habits like **Attendance** and **Hours Studied** were the strongest predictors. The final XGBoost model can predict a student's score with an average error margin of only ~1 point.
+**Key Insight:** Academic habits like Attendance and Hours Studied were the strongest predictors. The final XGBoost model can predict a student's score with an average error margin of only ~1 point.
 
 ## How to Run
 
